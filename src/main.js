@@ -88,12 +88,12 @@ export function setupChart1(containerId) {
       'December',
     ];
 
-    const xScale = d3.scaleBand().domain(years).range([0, width]).padding(0.05);
+    const xScale = d3.scaleBand().domain(years).range([0, width]).padding(0.15);
     const yScale = d3
       .scaleBand()
       .domain(d3.range(12))
       .range([0, height])
-      .padding(0.05);
+      .padding(0.15);
 
     // Add the axes
     svg.append('g').call(d3.axisTop(xScale));
@@ -265,12 +265,12 @@ export function setupChart2(containerId) {
       .scaleBand()
       .domain(recentYears)
       .range([0, width])
-      .padding(0.05);
+      .padding(0.15);
     const yScale = d3
       .scaleBand()
       .domain(d3.range(12))
       .range([0, height])
-      .padding(0.05);
+      .padding(0.15);
 
     // Create a color scale for the temperature values using the YlOrRd color scheme
     const tempValues = data.flatMap((d) => [
