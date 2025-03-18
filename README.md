@@ -4,7 +4,7 @@ This project visualizes temperature data using **D3.js**, built with **Vite**.
 
 ## 🌐 Live Demo
 
-The project is deployed and can be accessed at: [cloud.cesarsp.com:13000]()
+The project is deployed and can be accessed [cloud.cesarsp.com:13000](cloud.cesarsp.com:13000)
 
 ## 🚀 Getting Started
 
